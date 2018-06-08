@@ -1,0 +1,19 @@
+﻿<Window x:Class="u5AddCoins.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u5AddCoins"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txttoonies" Text="Number of Toonies" Margin="142,0,237,295"/>
+        <TextBox x:Name="txtloonies" Text="Number of Loonies" Margin="142,29,237,270"/>
+        <TextBox x:Name="txtquarters" Text="Number of Quarters" Margin="142,54,237,245"/>
+        <TextBox x:Name="txtdimes" Text="Number of Dimes" Margin="142,74,237,225"/>
+        <TextBox x:Name="txtnickels" Text="Number of Nickels" Margin="142,99,237,190"/>
+        <Button x:Name="btncalculate" Click="btncalculate_Click" Content="Calculate $$$$" Margin="142,129,237,135" Background="#FF29E40C" Foreground="Black"/>
+        <Label x:Name="lbloutput" Content=" " Margin="0,184,0,65"/>
+
+    </Grid>
+</Window>
